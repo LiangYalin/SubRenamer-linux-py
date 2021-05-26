@@ -12,3 +12,5 @@
 ```  
 /home/username/Downloads/[Moozzi2] Kidou Senkan Nadesico BD-BOX.FREEWIND
 ```
+
+Thank your.
