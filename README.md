@@ -1,6 +1,3 @@
-# SubRenamer-linux-py
-A Python script to batch rename subtitle files for matching videos.
-
 # 说明  
 此脚本依赖于python2或python3解释器，运行脚本前请确保您的系统已安装python2或python3。
 
