@@ -10,6 +10,9 @@ VIDEO = 1
 # 获取字幕或视频路径
 
 def get_directory(Tab):
+    # 检查 Sub 目录是否存在
+    isexist_sub()
+    
     while True:
         try:
             if Tab == VIDEO:
@@ -40,6 +43,13 @@ def get_directory(Tab):
         else:
             break
     return file_name_list, tmp_directory
+
+
+# 检测 Sub 目录是否存在 
+def isexist_sub():
+        if not os.path.exists('./Sub'):
+            os.mkdir('./Sub')
+
 
 # 打印列表信息
 def print_info(info_list, flag):
